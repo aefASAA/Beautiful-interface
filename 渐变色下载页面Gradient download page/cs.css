@@ -1,0 +1,145 @@
+/* 样式表 */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px; /* 设置页面的上下左右边距 */
+}
+
+.book-widget {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #3d1c68, #8f189e);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* 设置每个小组件的最大宽度 */
+    transition: transform 0.3s;
+}
+
+.book-widget:hover {
+    transform: translateY(-10px);
+}
+
+.book-image {
+    width: 120px;
+    height: 160px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.book-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book-image:hover {
+    transform: scale(1.1);
+}
+
+.book-info {
+    flex: 1;
+    transition: transform 0.3s;
+}
+
+.book-info:hover {
+    transform: translateY(-10px);
+}
+
+.book-info h2 {
+    font-size: 24px;
+    margin-top: 0;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+}
+
+.book-info p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+    font-family: "Arial", sans-serif;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3d1c68;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #ddd;
+}
+
+  .book-widget {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #3d1c68, #8f189e);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    transition: transform 0.3s;
+    border: 10px solid;
+    border-image: linear-gradient(to right, #4a148c, #7b1fa2, #9c27b0, #ba68c8, #e1bee7) 30;
+}
+
+.book-widget:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+.download-button:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+
+.book-image {
+    width: 120px;
+    height: 160px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.book-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book-image:hover {
+    transform: scale(1.1);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+    background: linear-gradient(to right, #4a148c, #7b1fa2, #9c27b0, #ba68c8, #e1bee7, #ff8a80, #ff5252, #ff1744);
+    background-size: 800% 800%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
