@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+#speedSlider, #sizeSlider, #numSlider {
+    margin: 10px;
+}
